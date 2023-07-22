@@ -4,7 +4,7 @@ main {
     place-content: center;
 }
 .card-container {
-    box-shadow: 20px 10px 36px 10px;
+    box-shadow: 20px 10px 40px 10px;
     background-color: white;
     display: grid;
     width: 1280px;
