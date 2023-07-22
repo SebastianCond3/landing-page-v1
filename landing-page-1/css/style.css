@@ -51,3 +51,12 @@ main {
     grid-row: 2 / 2;
     grid-column: 3 / 3;
 }
+.deconstruction {
+    place-self: start;
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+}
+.number {
+    grid-column: 3 / 3;
+    grid-row: 4 / 4;
+}
