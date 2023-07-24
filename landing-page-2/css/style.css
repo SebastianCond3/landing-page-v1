@@ -1,5 +1,5 @@
 main {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     display: flex;
     place-content: center;
 }
@@ -8,7 +8,7 @@ main {
     background-color: white;
     display: grid;
     width: 1280px;
-    height: 1920px;
+    height: 1930px;
     grid-template-rows: 1fr 35px auto 1fr;
     grid-template-columns:  50px auto 50px;
     place-items: center;
@@ -34,18 +34,24 @@ main {
 .instagram-items, .name-company {
     margin: 0 20px;
 }
+.name-company {
+    margin-top: 20px;
+}
 .url-right {
+    margin-right: 50px;
     writing-mode: vertical-lr;
     grid-column: 3 / 3;
     grid-row: 3 / 3;
 }
 .url-left {
+    margin-left: 50px;
     rotate: 180deg;
     writing-mode: vertical-rl;
     grid-column: 1 / 1;
     grid-row: 3 / 3;
 }
 .design {
+    margin-right: 50px;
     align-self: start;
     writing-mode: vertical-rl;
     grid-row: 2 / 2;
